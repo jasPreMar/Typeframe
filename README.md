@@ -61,10 +61,6 @@ Some icons don't make sense to be written in shorthand, such as:
 
 
 
-Braces were chosen because of their ornate appearance that enclose the name.
-
-
-
 #### APP BARS
 To create an app bar, use two or more `==` without any text following. Without any elements inside this only indicates a blank container.
 
