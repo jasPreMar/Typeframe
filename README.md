@@ -1,80 +1,134 @@
-# UXMD
+# Typeframe
 
-> "I want to be able to type my UI and hand it to my developers."
+> "I wish I could type my wireframes and send it to developers."
 >
-> (February 2, 2019)
+> (Morning of February 2, 2019)
+>
+> -Jason Marsh
+
+------
+
+## INTRODUCTION
+
+Typeframe (will be) an electron note application for typing UXMD that instantly converts in-line to coded components, much like how many Markdown note applications can convert instantly to WYSIWYG.
+
+The justification for typeframe is predicated on the idea that the design process is often uncessesarily painstaking and granular for common designer needs.
+
+Problems to solve:
+
+* Rapid ideation
+* Pixel-hell
+* Reinventing componenets
+* "Getting the idea across" to developers
+* Instant feedback
+* Easy editing
 
 
+
+## UXMD
+
+UXMD is a text-to-component conversion tool for designers that is meant to work alongside Markdown. Just like Markdown, the central tenet is to provide an easy-to-read, easy-to-write plain text format that converts to structurally-correct components.
 
 #### ICONS
 
 For icons, use the name of the icon file (sans suffix) surrounded by braces.
 
-**{arrow_back}**
 
-**{close}**
 
-**{menu}**
-
-**{more_horiz}**
+`{arrow_back}` `{close}` `{menu}` `{more_horiz}`
 
 
 
 An alternative to writing the name of the icon, some very commonly used icons can be indicated through shorthands. Here are a few examples:
 
-**{arrow_back}** *can also be written as* **{<}**
-
-**{close}** *can be also written as* **{x}**
-
-**{menu}** *can also be written as* **{=}**
-
-**{more_horiz}** *can also be written as* **{...}**
 
 
+`{arrow_back}` can also be written as `{<}`
 
-Some don't make sense to be written as shorthand, such as:
+`{close}` can be also written as `{x}`
 
-**{search}**
+`{menu}` can also be written as `{=}`
 
-**{favorite}**
+`{more_vert}` can be written as `{:}`
 
-**{shopping_cart}**
+`{more_horiz}` can also be written as `{...}`
 
-**{zoom_in}**
+
+
+Some icons don't make sense to be written in shorthand, such as:
+
+
+
+`{search}` `{favorite}` `{shopping_cart}` `{zoom_in}`
 
 
 
 Braces were chosen because of their ornate appearance that enclose the name.
 
-#### APP BARS: BOTTOM
-**##** -or- **######**
 
-To create an app bar, use two or more hashes without any text following. Two hashes `##` alone indicates that the bar is only a blank container.
 
-**#text#** -or- **##(({+}))##**
+#### APP BARS
 
-To indicate an element is inside of an app bar, add it between the hashes. To center-align, place an even number on both sides. Here are two app bars with center-aligned text and a center-aligned FAB.
+To create an app bar, use two or more `==` without any text following. Without any elements inside this only indicates a blank container.
 
-**#{=}##**
-To left-align an element inside an app bar, place only one hash to the left, and two or more hashes to the right of it.
 
-**##{search}#**
+
+`==` or `====`
+
+
+
+To indicate an element is inside of an app bar, add it between two or more `==`. To center-align, place an even number on both sides. Here are two app bars with center-aligned text and a center-aligned FAB.
+
+
+
+`=text=` or `==(({+}))==`
+
+
+
+To left-align an element inside an app bar, place only one `=` to the left of the element, and two or more `==` to the right of it.
+
+
+
+`={menu}==`
+
+
+
 Similarly, you can indicate right-aligned.
 
-**###{search}{more_vert}#**
-Bar with overflow menu control
 
-**#{menu}#(({+}))#{search}{more_vert}#**
 
-Bottom bar with a left aligned icon, center aligned FAB, and two right aligned action icons.
+`=={search}=`
 
-#{<}#Page Title##
+
+
+Bar with a left aligned icon, a center aligned floating action button (FAB), and two right aligned action icons.
+
+
+
+`={=}=(({+}))={search}{:}=`
+
+
+
+
+
+```
+=Home=
+=[Current][Upcoming]=
+# Header
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+((Cancel)) ((Next))
+=[{home}][{search}][{cart}]=
+
+```
+
+
 
 All bar components are written in the same way. The bar's type (header, footer) of is indicated by its placement on the page.
 
 To indicate that this is a bottom app bar, place the bar at the bottom.
 
-##### APP BARS: TOP
+#### APP BARS: TOP
+
 **Overview:**
 
 Just like the bottom app bar, its placement informs the function. Top app bars should always be placed either at the top of the page or under any existing system elements such as status bar.
@@ -88,26 +142,46 @@ Just like the bottom app bar, its placement informs the function. Top app bars s
 2. Bar container:
    `#####`
 
-##### BACKDROP
+#### BACKDROP
 
-##### BANNERS
-##### BOTTOM NAVIGATION
-##### BUTTONS
-##### BUTTONS: FLOATING ACTION BUTTON
-##### CARDS
-##### CHIPS
-##### DATA TABLES
-##### DIALOGS
-##### DIVIDERS
-##### IMAGE LISTS
-##### LISTS
-##### MENUS
-##### NAVIGATION DRAWERS
-##### SELECTION CONTROLS
-##### SHEETS: BOTTOM
-##### SHEETS: SIDE
-##### SLIDERS
-##### SNACKBARS
-##### TABS
-##### TEXT FIELDS
-##### TOOLTIPS
+#### BANNERS
+
+#### BOTTOM NAVIGATION
+
+#### BUTTONS
+
+#### BUTTONS: FLOATING ACTION BUTTON
+
+#### CARDS
+
+#### CHIPS
+
+#### DATA TABLES
+
+#### DIALOGS
+
+#### DIVIDERS
+
+#### IMAGE LISTS
+
+#### LISTS
+
+#### MENUS
+
+#### NAVIGATION DRAWERS
+
+#### SELECTION CONTROLS
+
+#### SHEETS: BOTTOM
+
+#### SHEETS: SIDE
+
+#### SLIDERS
+
+#### SNACKBARS
+
+#### TABS
+
+#### TEXT FIELDS
+
+#### TOOLTIPS
