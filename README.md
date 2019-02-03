@@ -7,6 +7,9 @@
 > -Jason Marsh
 
 
+[TOC]
+
+
 ## INTRODUCTION
 
 Typeframe (will be) an electron note application for typing UXMD that instantly converts in-line to coded components, much like how many Markdown note applications can convert instantly to WYSIWYG.
