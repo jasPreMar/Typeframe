@@ -6,7 +6,7 @@
 
 
 
-##### ICONS
+#### ICONS
 
 For icons, use the name of the icon file (sans suffix) surrounded by braces.
 
@@ -46,7 +46,7 @@ Some don't make sense to be written as shorthand, such as:
 
 Braces were chosen because of their ornate appearance that enclose the name.
 
-##### APP BARS: BOTTOM
+#### APP BARS: BOTTOM
 **##** -or- **######**
 
 To create an app bar, use two or more hashes without any text following. Two hashes `##` alone indicates that the bar is only a blank container.
@@ -88,26 +88,26 @@ Just like the bottom app bar, its placement informs the function. Top app bars s
 2. Bar container:
    `#####`
 
-###### BACKDROP
+##### BACKDROP
 
-###### BANNERS
-###### BOTTOM NAVIGATION
-###### BUTTONS
-###### BUTTONS: FLOATING ACTION BUTTON
-###### CARDS
-###### CHIPS
-###### DATA TABLES
-###### DIALOGS
-###### DIVIDERS
-###### IMAGE LISTS
-###### LISTS
-###### MENUS
-###### NAVIGATION DRAWERS
-###### SELECTION CONTROLS
-###### SHEETS: BOTTOM
-###### SHEETS: SIDE
-###### SLIDERS
-###### SNACKBARS
-###### TABS
-###### TEXT FIELDS
-###### TOOLTIPS
+##### BANNERS
+##### BOTTOM NAVIGATION
+##### BUTTONS
+##### BUTTONS: FLOATING ACTION BUTTON
+##### CARDS
+##### CHIPS
+##### DATA TABLES
+##### DIALOGS
+##### DIVIDERS
+##### IMAGE LISTS
+##### LISTS
+##### MENUS
+##### NAVIGATION DRAWERS
+##### SELECTION CONTROLS
+##### SHEETS: BOTTOM
+##### SHEETS: SIDE
+##### SLIDERS
+##### SNACKBARS
+##### TABS
+##### TEXT FIELDS
+##### TOOLTIPS
