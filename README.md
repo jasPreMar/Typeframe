@@ -6,7 +6,6 @@
 >
 > -Jason Marsh
 
-------
 
 ## INTRODUCTION
 
@@ -67,8 +66,7 @@ Braces were chosen because of their ornate appearance that enclose the name.
 
 
 
-#### APP BARS
-
+##### APP BARS
 To create an app bar, use two or more `==` without any text following. Without any elements inside this only indicates a blank container.
 
 
@@ -111,25 +109,35 @@ Bar with a left aligned icon, a center aligned floating action button (FAB), and
 
 
 
-```
-=Home=
-=[Current][Upcoming]=
-# Header
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-((Cancel)) ((Next))
-=[{home}][{search}][{cart}]=
-
-```
 
 
-
-All bar components are written in the same way. The bar's type (header, footer) of is indicated by its placement on the page.
 
 To indicate that this is a bottom app bar, place the bar at the bottom.
 
-#### APP BARS: TOP
-
+##### TOP VS BOTTOM BARS
 **Overview:**
+
+All bar components are written in the same way. The bar's type (header, footer) of is indicated by its placement on the page.
+
+```
+=Home==
+==
+* Current
+* Upcoming
+==
+# Header
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+((Cancel)) ((Next))
+==
+* {home}
+* {search}
+* {cart}
+==
+
+```
+
+
+
 
 Just like the bottom app bar, its placement informs the function. Top app bars should always be placed either at the top of the page or under any existing system elements such as status bar.
 
@@ -142,46 +150,26 @@ Just like the bottom app bar, its placement informs the function. Top app bars s
 2. Bar container:
    `#####`
 
-#### BACKDROP
+###### BACKDROP
 
-#### BANNERS
-
-#### BOTTOM NAVIGATION
-
-#### BUTTONS
-
-#### BUTTONS: FLOATING ACTION BUTTON
-
-#### CARDS
-
-#### CHIPS
-
-#### DATA TABLES
-
-#### DIALOGS
-
-#### DIVIDERS
-
-#### IMAGE LISTS
-
-#### LISTS
-
-#### MENUS
-
-#### NAVIGATION DRAWERS
-
-#### SELECTION CONTROLS
-
-#### SHEETS: BOTTOM
-
-#### SHEETS: SIDE
-
-#### SLIDERS
-
-#### SNACKBARS
-
-#### TABS
-
-#### TEXT FIELDS
-
-#### TOOLTIPS
+###### BANNERS
+###### BOTTOM NAVIGATION
+###### BUTTONS
+###### BUTTONS: FLOATING ACTION BUTTON
+###### CARDS
+###### CHIPS
+###### DATA TABLES
+###### DIALOGS
+###### DIVIDERS
+###### IMAGE LISTS
+###### LISTS
+###### MENUS
+###### NAVIGATION DRAWERS
+###### SELECTION CONTROLS
+###### SHEETS: BOTTOM
+###### SHEETS: SIDE
+###### SLIDERS
+###### SNACKBARS
+###### TABS
+###### TEXT FIELDS
+###### TOOLTIPS
