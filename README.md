@@ -2,9 +2,7 @@
 
 > "I wish I could type my wireframes and send it to developers."
 >
-> (Morning of February 2, 2019)
->
-> -Jason Marsh
+> -Morning of February 2, 2019
 
 
 
