@@ -115,7 +115,7 @@ Bar with a left aligned icon, a center aligned floating action button (FAB), and
 
 To indicate that this is a bottom app bar, place the bar at the bottom.
 
-#### TOP VS BOTTOM BARS
+#### TOP VS BOTTOM APP BARS
 **Overview:**
 
 All bar components are written in the same way. The bar's type (header, footer) of is indicated by its placement on the page.
@@ -138,18 +138,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 ```
 
 
-
-
-Just like the bottom app bar, its placement informs the function. Top app bars should always be placed either at the top of the page or under any existing system elements such as status bar.
-
-**Example:**
-
-={menu}Page title=={favorite}=
-
-1. Bar container:
-   `====`
-2. Bar container:
-   `#####`
 
 #### BACKDROP
 #### BANNERS
