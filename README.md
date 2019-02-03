@@ -7,8 +7,6 @@
 > -Jason Marsh
 
 
-[TOC]
-
 
 ## INTRODUCTION
 
