@@ -11,11 +11,8 @@
 For icons, use the name of the icon file (sans suffix) surrounded by braces.
 
 **{arrow_back}**
-
 **{close}**
-
 **{menu}**
-
 **{more_horiz}**
 
 
@@ -23,11 +20,8 @@ For icons, use the name of the icon file (sans suffix) surrounded by braces.
 An alternative to writing the name of the icon, some very commonly used icons can be indicated through shorthands. Here are a few examples:
 
 **{arrow_back}** *can also be written as* **{<}**
-
 **{close}** *can be also written as* **{x}**
-
 **{menu}** *can also be written as* **{=}**
-
 **{more_horiz}** *can also be written as* **{...}**
 
 
@@ -35,11 +29,8 @@ An alternative to writing the name of the icon, some very commonly used icons ca
 Some don't make sense to be written as shorthand, such as:
 
 **{search}**
-
 **{favorite}**
-
 **{shopping_cart}**
-
 **{zoom_in}**
 
 
