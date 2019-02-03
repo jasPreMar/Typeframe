@@ -2,13 +2,13 @@
 
 > "I wish I could type my wireframes and send it to developers."
 >
-> -Morning of February 2, 2019
+> —Morning of February 2, 2019
 
 
 
 ## INTRODUCTION
 
-Typeframe (will be) an electron note application for typing UXMD that instantly converts in-line to coded components, much like how many Markdown note applications can convert instantly to WYSIWYG.
+Typeframe will be an note application for typing UXMD that instantly converts in-line to coded components, much like how many Markdown note applications can convert instantly to WYSIWYG.
 
 The justification for typeframe is predicated on the idea that the design process is often uncessesarily painstaking and granular for common designer needs.
 
