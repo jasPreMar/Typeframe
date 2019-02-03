@@ -7,6 +7,8 @@
 > -Jason Marsh
 
 
+[TOC]
+
 
 ## INTRODUCTION
 
@@ -67,7 +69,7 @@ Braces were chosen because of their ornate appearance that enclose the name.
 
 
 
-##### APP BARS
+#### APP BARS
 To create an app bar, use two or more `==` without any text following. Without any elements inside this only indicates a blank container.
 
 
@@ -115,7 +117,7 @@ Bar with a left aligned icon, a center aligned floating action button (FAB), and
 
 To indicate that this is a bottom app bar, place the bar at the bottom.
 
-##### TOP VS BOTTOM BARS
+#### TOP VS BOTTOM BARS
 **Overview:**
 
 All bar components are written in the same way. The bar's type (header, footer) of is indicated by its placement on the page.
@@ -151,26 +153,25 @@ Just like the bottom app bar, its placement informs the function. Top app bars s
 2. Bar container:
    `#####`
 
-###### BACKDROP
-
-###### BANNERS
-###### BOTTOM NAVIGATION
-###### BUTTONS
-###### BUTTONS: FLOATING ACTION BUTTON
-###### CARDS
-###### CHIPS
-###### DATA TABLES
-###### DIALOGS
-###### DIVIDERS
-###### IMAGE LISTS
-###### LISTS
-###### MENUS
-###### NAVIGATION DRAWERS
-###### SELECTION CONTROLS
-###### SHEETS: BOTTOM
-###### SHEETS: SIDE
-###### SLIDERS
-###### SNACKBARS
-###### TABS
-###### TEXT FIELDS
-###### TOOLTIPS
+#### BACKDROP
+#### BANNERS
+#### BOTTOM NAVIGATION
+#### BUTTONS
+#### BUTTONS: FLOATING ACTION BUTTON
+#### CARDS
+#### CHIPS
+#### DATA TABLES
+#### DIALOGS
+#### DIVIDERS
+#### IMAGE LISTS
+#### LISTS
+#### MENUS
+#### NAVIGATION DRAWERS
+#### SELECTION CONTROLS
+#### SHEETS: BOTTOM
+#### SHEETS: SIDE
+#### SLIDERS
+#### SNACKBARS
+#### TABS
+#### TEXT FIELDS
+#### TOOLTIPS
