@@ -80,7 +80,7 @@ To indicate an element is inside of an app bar, add it between two or more `==`.
 
 
 
-`=text=` or `==(({+}))==`
+`= text =` or `== (({+})) ==`
 
 
 
@@ -88,7 +88,7 @@ To left-align an element inside an app bar, place only one `=` to the left of th
 
 
 
-`={menu}==`
+`= {menu} ==`
 
 
 
@@ -96,7 +96,7 @@ Similarly, you can indicate right-aligned.
 
 
 
-`=={search}=`
+`== {search} =`
 
 
 
@@ -104,7 +104,7 @@ Bar with a left aligned icon, a center aligned floating action button (FAB), and
 
 
 
-`={=}=(({+}))={search}{:}=`
+`= {=} = (({+})) = {search}{:} =`
 
 
 
@@ -121,19 +121,12 @@ To indicate that this is a bottom app bar, place the bar at the bottom.
 All bar components are written in the same way. The bar's type (header, footer) of is indicated by its placement on the page.
 
 ```
-=Home==
-==
-* Current
-* Upcoming
-==
+= Home ==
+== * Current * Upcoming ==
 # Header
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 ((Cancel)) ((Next))
-==
-* {home}
-* {search}
-* {cart}
-==
+== * {home} * {search} * {cart} ==
 
 ```
 
