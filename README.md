@@ -69,11 +69,11 @@ Some icons don't make sense to be written in shorthand, such as:
 ```
 [] 360x640
 
-== /header:fixed
+== header:fixed
 	= section icon:menu text:San Fransico =
 	= section i:file_download i:print i:bookmark =
 ==
-== /tab bar:fixed
+== tab bar:fixed
 	= tab:active i:access_time t:Recents =
 	= tab i:near_me t:Nearby =
 	= tab i:favorite t:Favorites =
