@@ -64,6 +64,8 @@ Some icons don't make sense to be written in shorthand, such as:
 
 #### APP BARS
 
+**V1**
+
 ```
 [] 360x640
 
@@ -83,7 +85,7 @@ Some icons don't make sense to be written in shorthand, such as:
 Back in the day, there were a bunch of computer scientists building the machines of the future.
 ```
 
-**V2 REPRESENTATIVE**
+**V2**
 
 ```
 [] 360x640
