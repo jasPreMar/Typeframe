@@ -71,7 +71,7 @@ Some icons don't make sense to be written in shorthand, such as:
 
 /header:fixed =
 	= section icon:menu text:San Fransico =
-    = section i:file_download i:print i:bookmark =
+	= section i:file_download i:print i:bookmark =
 =
 /tab bar:fixed =
 	= tab:active i:access_time t:Recents =
