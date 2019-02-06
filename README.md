@@ -30,11 +30,11 @@ UXMD is a text-to-component conversion tool for designers that is meant to work 
 
 #### ICONS
 
-For icons, use the name of the icon file (sans suffix) surrounded by braces.
+For icons, type the name of the icon file (sans suffix) after a back slash.
 
 
 
-`{arrow_back}` `{close}` `{menu}` `{more_horiz}`
+`/arrow_back` `/close` `/menu` `/more_horiz`
 
 
 
@@ -42,15 +42,15 @@ An alternative to writing the name of the icon, some very commonly used icons ca
 
 
 
-`{arrow_back}` can also be written as `{<}`
+`/arrow_back` can also be written as `/<`
 
-`{close}` can be also written as `{x}`
+`/close` can be also written as `/x`
 
-`{menu}` can also be written as `{=}`
+`/menu` can also be written as `/=`
 
-`{more_vert}` can be written as `{:}`
+`/more_vert` can be written as `/:`
 
-`{more_horiz}` can also be written as `{...}`
+`/more_horiz` can also be written as `/...`
 
 
 
@@ -58,7 +58,7 @@ Some icons don't make sense to be written in shorthand, such as:
 
 
 
-`{search}` `{favorite}` `{shopping_cart}` `{zoom_in}`
+`/search` `/favorite` `/shopping_cart` `/zoom_in`
 
 
 
@@ -71,7 +71,7 @@ Some icons don't make sense to be written in shorthand, such as:
 	= section icon:menu text:San Fransico =
     = section i:file_download i:print i:bookmark =
 =
-/tab bar =
+/tab bar:fixed =
 	= tab:active i:access_time t:Recents =
 	= tab i:near_me t:Nearby =
 	= tab i:favorite t:Favorites =
@@ -86,79 +86,15 @@ Back in the day, there were a bunch of computer scientists building the machines
 **V2 REPRESENTATIVE**
 
 ```
-360x640
+[] 360x640
 
-=/menu"San Francisco==/file_download/print/bookmark= :fixed
-=[/access_time"Recents] :active [/near_me"Nearby][/favorite"Favorites]=
+= fix: =
+= /menu"San Francisco == /file_download/print/bookmark =
+= *|/access_time"Recents| |/near_me"Nearby| |/favorite"Favorites| =
+= :fix =
 
 # Palo Alto
 ###### July 9, 1956
 
 Back in the day, there were a bunch of computer scientists building the machines of the future.
 ```
-
-To create an app bar, use two or more `==` without any text following. Without any elements inside this only indicates a blank container.
-
-`==` or `====`
-
-To indicate an element is inside of an app bar, add it between two or more `==`. To center-align, place an even number on both sides. Here are two app bars with center-aligned text and a center-aligned FAB.
-
-`= text =` or `== (({+})) ==`
-
-To left-align an element inside an app bar, place only one `=` to the left of the element, and two or more `==` to the right of it.
-
-`= {menu} ==`
-
-Similarly, you can indicate right-aligned.
-
-`== {search} =`
-
-Bar with a left aligned icon, a center aligned floating action button (FAB), and two right aligned action icons.
-
-`= {=} = (({+})) = {search}{:} =`
-
-
-To indicate that this is a bottom app bar, place the bar at the bottom.
-
-
-
-#### TOP VS BOTTOM APP BARS
-
-**Overview:**
-
-All bar components are written in the same way. The bar's type (header, footer) of is indicated by its placement on the page.
-
-```
-= Home ==
-== * Current * Upcoming * ==
-# Header
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-((Cancel)) ((Next))
-== * {home} * {search} * {cart} * ==
-
-```
-
-
-
-#### BACKDROP
-#### BANNERS
-#### BOTTOM NAVIGATION
-#### BUTTONS
-#### BUTTONS: FLOATING ACTION BUTTON
-#### CARDS
-#### CHIPS
-#### DATA TABLES
-#### DIALOGS
-#### DIVIDERS
-#### IMAGE LISTS
-#### LISTS
-#### MENUS
-#### NAVIGATION DRAWERS
-#### SELECTION CONTROLS
-#### SHEETS: BOTTOM
-#### SHEETS: SIDE
-#### SLIDERS
-#### SNACKBARS
-#### TABS
-#### TEXT FIELDS
-#### TOOLTIPS
